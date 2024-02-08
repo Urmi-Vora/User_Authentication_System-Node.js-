@@ -1,0 +1,34 @@
+{
+    "name": "user_authentication_system_node.js",
+    "version": "1.0.0",
+    "description": "user_authentication with login/logout",
+    "main": "index.js",
+    "scripts": {"dev": "node -r dotenv/config ./src/index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Urmi-Vora/User_Authentication_System-Node.js-.git"
+    },
+    "author": "Urmi Vora",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Urmi-Vora/User_Authentication_System-Node.js-/issues"
+    },
+    "homepage": "https://github.com/Urmi-Vora/User_Authentication_System-Node.js-#readme",
+    "dependencies": {
+      "bcrypt": "^5.1.1",
+      "body-parser": "^1.20.2",
+      "cookie-parser": "^1.4.6",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^9.0.2",
+      "mongoose": "^8.1.1",
+      "nodemon": "^3.0.3",
+      "cors": "2.8.5"
+    },
+    "devDependencies": {},
+    "keywords": [
+      "login/logout"
+    ]
+  }
+  
